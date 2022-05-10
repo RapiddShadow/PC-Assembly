@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUILD YOUR DREAM PC</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+ <body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/b.png" ></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="Gaming.html">GAMING</a></li>
+                <li><a href="Work.html">WORK</a></li>
+                <li><a href="custom.html">CUSTOM</a></li>
+                
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </nav>
+    <h1>About Us</h1>
+
+
+
+
+</section>
+<!----------------------------------------------------About Us Content-------------------------------------------------->
+<sction class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We Are Like Long Relatives To You</h1>
+            <p>We here at SJS PC Simulator work constantly to improve the quality of your decisions and to make sure that nobody 
+                buys the wrong non-compatible parts which are no use to you and can't even be returned as the packaging is already
+                damaged because you checked it by plugging it into the motherboard.<br><br><br>
+                <a href="index.html" class="hero-btn red-btn">Explore Now</a>
+            </p>
+        </div>
+        <div class="about-col">
+            <img src="Images/conference.jpg">
+        </div>
+    </div>
+</sction>
+
+
+
+
+<!----------------------------------------------------------Footer------------------------------------------------------>
+<section class="footer">
+    <h4>About US</h4>
+    <p>Get To Know Us More</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made With  <i class="fa fa-heart"></i> By Siddharth, Shubham & Jayesh</p>
+</section>
+
+
+<!-------------------------------------------------Javascript for toggle menu------------------------------------------->
+
+
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+</body>
+</html>

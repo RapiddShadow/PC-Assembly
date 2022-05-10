@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUILD YOUR DREAM PC</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+</head>
+ <body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/b.png" ></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="Gaming.html">GAMING</a></li>
+                <li><a href="Work.html">WORK</a></li>
+                <li><a href="custom.html">CUSTOM</a></li>
+                
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </nav>
+    <h1>Our Gaming Recommendations</h1>
+   
+
+
+
+</section>
+<!----------------------------------------------------Gaming-------------------------------------------------->
+<sction class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>THE ALL NEW ROG STRIX</h1>
+            <p>The first ROG motherboards made hardcore overclocking more accessible, and we've stayed at the forefront of bringing advanced tuning to everyone. Our automated 5-Way Optimization software delivered expert-level tweaking with a single click. The latest AI Overclocking system sets speeds automatically based on silicon and cooling quality, and can train continuously to optimize performance over time..<br><br><br>
+                <a href="rog.html"></a> 
+            </p>
+           
+                
+            
+        </div>
+        <div class="about-col">
+            <img src="Images/12.jpg">
+        </div>
+    </div>
+    <div class="iframe_a">
+    <p><a href="rog.html" class="hero-btn red-btn" target="iframe_a">Build now</a></p>
+    <iframe src="" name="iframe_a" style="border:none" height="760px" width="100%" ></iframe>
+</div>
+<style>
+.iframe_a{
+    text-align: center;
+    width: 100%;
+}
+</style>
+
+    
+</sction>
+<br>
+<sction class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>THE MASTER OF GAMING TUF</h1>
+            <p>TUF Gaming series distills essential elements of the latest Intel® platform and combines them with game-ready features and proven durability. Engineered with military-grade components, an upgraded power solution and a comprehensive set of cooling options, this motherboard delivers rock-solid performance with unwavering gaming stability.<br><br><br>
+                <a href="tuf.html"></a>
+            </p>
+           
+                
+            
+        </div>
+        <div class="about-col">
+            <img src="Images/tufmb.jpg">
+        </div>
+    </div>
+</sction>
+<div class="iframe_b">
+<p><a href="tuf.html" class="hero-btn red-btn"  target="iframe_b">Build now</a></p>
+<iframe src="" name="iframe_b" style="border:none" height="760px" width="100%" ></iframe>
+</div>
+    <style>
+        .iframe_b{
+            text-align: center;
+            width: 100%;
+            
+        }
+    </style>
+    
+
+
+
+
+<!----------------------------------------------------------Footer------------------------------------------------------>
+
+
+<section class="footer">
+    <h4>About US</h4>
+    <p>Get To Know Us More</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made With  <i class="fa fa-heart"></i> By Siddharth, Shubham & Jayesh</p>
+</section>
+
+
+<!-------------------------------------------------Javascript for toggle menu------------------------------------------->
+
+
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+</body>
+</html>
